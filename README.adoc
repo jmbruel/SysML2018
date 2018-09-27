@@ -1,0 +1,31 @@
+= Travail collaboratif sur la Maison Intelligente 2018
+
+Vous trouverez les consignes du TP link:https://jmbruel.github.io/masterDL/#_tp_sysml[ici].
+
+Consignes pour ce qui concerne `git` :
+
+* Personne ne pousse dans la branche `master`
+* la branche de travail est `dev`
+* Chacun créé sa propre branche à partir de `dev` (`git checkout -b <monSuperGroupe>`)
+* Chacun :
+  ** En local
+  *** bosse sur sa branche
+  *** commit
+  *** repasse sur `dev` en local (git pull au passage)
+  *** vérifie que sa branche se merge correctement dans dev
+  *** pousse dev
+  ** Sur Github
+  *** Aller sur le projet
+  *** Créer une pull request (to master from <monSuperGroupe>)
+  *** Au moins une personne doit approuver la pull request avant de pouvoir être mergée (volunteers welcomed).
+
+Approuver une pull request :
+
+* Sur Github
+** Aller sur le projet
+** Onglet Pull Requests
+** Choisir la pull request
+** Onglet Files changed
+** Review Changes -> Approve
+
+Et maintenant tu peux merger ta Pull Request !
